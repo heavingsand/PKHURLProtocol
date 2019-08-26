@@ -53,7 +53,7 @@ URLProtocol.registerClass(PKHRegisterURLProtocol.self)
         sessionDelegateQueue.name = "com.pankehong.session.queue"
         
         let session = URLSession(configuration: configuration, delegate: self, delegateQueue: sessionDelegateQueue)
-        dataTask = session.dataTask(with: requestNew)
+        dataTask = session.dataTask(with: request)
         dataTask.resume()
         
     }

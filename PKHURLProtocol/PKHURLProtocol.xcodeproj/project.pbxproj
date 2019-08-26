@@ -14,8 +14,8 @@
 		9DFC46002313CBF3001B628B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC45FE2313CBF3001B628B /* LaunchScreen.storyboard */; };
 		9DFC460B2313CBF3001B628B /* PKHURLProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC460A2313CBF3001B628B /* PKHURLProtocolTests.swift */; };
 		9DFC46162313CBF3001B628B /* PKHURLProtocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC46152313CBF3001B628B /* PKHURLProtocolUITests.swift */; };
-		9DFC46282313CC9D001B628B /* PKHSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC46252313CC9D001B628B /* PKHSessionConfiguration.swift */; };
-		9DFC462A2313CCCD001B628B /* PKHRegisterURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC46292313CCCD001B628B /* PKHRegisterURLProtocol.swift */; };
+		9DFC46332313DA78001B628B /* PKHRegisterURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC46322313DA78001B628B /* PKHRegisterURLProtocol.swift */; };
+		9DFC46352313DA82001B628B /* PKHSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC46342313DA82001B628B /* PKHSessionConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		9DFC46112313CBF3001B628B /* PKHURLProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKHURLProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFC46152313CBF3001B628B /* PKHURLProtocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHURLProtocolUITests.swift; sourceTree = "<group>"; };
 		9DFC46172313CBF3001B628B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DFC46252313CC9D001B628B /* PKHSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHSessionConfiguration.swift; sourceTree = "<group>"; };
-		9DFC46292313CCCD001B628B /* PKHRegisterURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHRegisterURLProtocol.swift; path = ../../../Main/Loans/Controller/PKHRegisterURLProtocol.swift; sourceTree = "<group>"; };
+		9DFC46322313DA78001B628B /* PKHRegisterURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHRegisterURLProtocol.swift; sourceTree = "<group>"; };
+		9DFC46342313DA82001B628B /* PKHSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHSessionConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			children = (
 				9DFC45F52313CBF2001B628B /* AppDelegate.swift */,
 				9DFC45F72313CBF2001B628B /* ViewController.swift */,
-				9DFC46232313CC9D001B628B /* URLProtocolSource */,
+				9DFC46312313DA67001B628B /* URLProtocol */,
 				9DFC45F92313CBF2001B628B /* Main.storyboard */,
 				9DFC45FC2313CBF3001B628B /* Assets.xcassets */,
 				9DFC45FE2313CBF3001B628B /* LaunchScreen.storyboard */,
@@ -130,14 +130,13 @@
 			path = PKHURLProtocolUITests;
 			sourceTree = "<group>";
 		};
-		9DFC46232313CC9D001B628B /* URLProtocolSource */ = {
+		9DFC46312313DA67001B628B /* URLProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				9DFC46292313CCCD001B628B /* PKHRegisterURLProtocol.swift */,
-				9DFC46252313CC9D001B628B /* PKHSessionConfiguration.swift */,
+				9DFC46322313DA78001B628B /* PKHRegisterURLProtocol.swift */,
+				9DFC46342313DA82001B628B /* PKHSessionConfiguration.swift */,
 			);
-			name = URLProtocolSource;
-			path = "../../../xiaomangqianbao-master/mangobanker/mangobanker/Others/Vender/URLProtocolSource";
+			path = URLProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DFC45F82313CBF2001B628B /* ViewController.swift in Sources */,
+				9DFC46332313DA78001B628B /* PKHRegisterURLProtocol.swift in Sources */,
 				9DFC45F62313CBF2001B628B /* AppDelegate.swift in Sources */,
-				9DFC462A2313CCCD001B628B /* PKHRegisterURLProtocol.swift in Sources */,
-				9DFC46282313CC9D001B628B /* PKHSessionConfiguration.swift in Sources */,
+				9DFC46352313DA82001B628B /* PKHSessionConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
